@@ -1,0 +1,22 @@
+{
+  "name": "greenrepackbank",
+  "version": "1.0.0",
+  "description": "BlockChain pour le projet greenCoin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "elliptic": "^6.5.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "mocha": "^6.2.3",
+    "nyc": "^14.1.1"
+  },
+  "author": "ebrahim ouadoud",
+  "license": "ISC"
+}

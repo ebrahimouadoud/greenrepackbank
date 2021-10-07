@@ -23,7 +23,7 @@ const greenBank = new Blockchain();
 // Mine first block
 greenBank.minePendingTransactions(greenRepackAdress_pub);
 
-app.listen(80, () => { 
+app.listen(5000, () => { 
     //logger.info( 'Server listening' )
     console.log(' SERVER LESTENING ')
 } )
